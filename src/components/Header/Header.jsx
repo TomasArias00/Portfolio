@@ -1,9 +1,12 @@
-import styles from './Header.module.css'
+import NavBar from '../NavBar/NavBar'
+import styles from './Header.module.css';
 
 function Header() {
   
     return (
-      <div className={styles.header}>adgadgadHOLAA</div>
+        <div className={styles.header}>
+     <NavBar/>
+     </div>
     )
   }
 
